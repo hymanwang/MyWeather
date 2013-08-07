@@ -127,9 +127,9 @@
 - (BOOL)addNewCity:(CityEntity *)aCity
 {
     [self.selectedCityArray addObject:aCity];
-    CityEntity *cityEntity =aCity;
-    cityEntity.cityCode = aCity.cityCode;
-    cityEntity.cityName = aCity.cityName;
+//    CityEntity *cityEntity =aCity;
+//    cityEntity.cityCode = aCity.cityCode;
+//    cityEntity.cityName = aCity.cityName;
     return [self saveManagedObjectContext];
 }
 
