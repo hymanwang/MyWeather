@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>上海</key>
+	<string>101020100</string>
+	<key>宝山</key>
+	<string>101020300</string>
+	<key>嘉定</key>
+	<string>101020500</string>
+	<key>南汇</key>
+	<string>101020600</string>
+	<key>浦东新区</key>
+	<string>101021300</string>
+	<key>青浦</key>
+	<string>101020800</string>
+	<key>松江</key>
+	<string>101020900</string>
+	<key>奉贤</key>
+	<string>101021000</string>
+	<key>崇明</key>
+	<string>101021100</string>
+	<key>徐家汇</key>
+	<string>101021200</string>
+	<key>闵行</key>
+	<string>101020200</string>
+	<key>金山</key>
+	<string>101020700</string>
+</dict>
+</plist>

@@ -1,0 +1,24 @@
+//
+// Prefix header for all source files of the 'MyWeather' target in the 'MyWeather' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#ifndef  __OPTIMIZE__
+#define WLOG(...)   NSLog(__VA_ARGS__)
+#define WPrintBaseLog	NSLog(@"%s(%d)", __FUNCTION__, __LINE__)
+#define WDebugLog(s, ...)	NSLog(@"%s(%d): %@", __FUNCTION__, __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__])
+#else
+#define WLOG(...)
+#define WPrintBaseLog
+#define WDebugLog(s, ...)
+#endif
