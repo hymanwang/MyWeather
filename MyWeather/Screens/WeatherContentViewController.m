@@ -47,7 +47,9 @@ static const NSInteger beginTag = 100;
 {
     [super viewDidLoad];
     self.cityManager = [CityManager sharedCityManeger];
-    self.currentCity = [self.cityManager.selectedCityArray objectAtIndex:0];
+    if (self.cityManager.selectedCityArray.count > 0) {
+        self.currentCity = [self.cityManager.selectedCityArray objectAtIndex:0];
+    }
     [self loadWeatherView];
     self.scrollView.delegate = self;
 }
